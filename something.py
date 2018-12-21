@@ -13,10 +13,10 @@ from urllib import parse
 
 app = Flask(__name__)
 
-slack_token = "xoxb-502213453520-506886357569-vDhuXRxtjyFYcJ3XFWTLaKN2"
-slack_client_id = "502213453520.507676893381"
-slack_client_secret = "6ca284fc9ff2701910cc2acdb9c6d678"
-slack_verification = "ZKwcyJn50DlvdT23qTBbBxwd"
+slack_token = ""
+slack_client_id = ""
+slack_client_secret = ""
+slack_verification = ""
 sc = SlackClient(slack_token)
 
 dic ={}
